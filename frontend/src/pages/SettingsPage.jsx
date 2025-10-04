@@ -5,7 +5,7 @@ import { Send } from "lucide-react";
 const PREVIEW_MESSAGES = [
   { id: 1, content: "It's me cupid!, how has your day been?", isSent: false },
   { id: 2, content: "it's been amazing!, thanks for asking", isSent: true },
-  { id: 3, imageUrl: "../public/kitten.png", isSent: true },
+  { id: 3, imageUrl: "/kitten.png", isSent: true },
 ];
 
 const SettingsPage = () => {
